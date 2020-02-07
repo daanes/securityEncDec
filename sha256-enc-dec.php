@@ -48,7 +48,7 @@ function encrypt_decrypt($action, $string)
 // usage
 //
  
-$plain_txt = "Daanes";
+$plain_txt = "HelloWorld!";
 echo "Plain Text = $plain_txt\n";
  
 $encrypted_txt = encrypt_decrypt('encrypt', $plain_txt);
